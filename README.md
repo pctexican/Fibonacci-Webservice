@@ -33,5 +33,10 @@ Thoughts about production web service:
 6) Dependencies
       * Python- future upgrades
       * Combined with other web services?
-7) http://mortada.net/fibonacci-numbers-in-python.html
+```
+
+```
+Helpful Web links:
+    * Fibonacci code performance considerations: http://mortada.net/fibonacci-numbers-in-python.html
+    * Python error handling: https://docs.python.org/2/tutorial/errors.html
 ```
