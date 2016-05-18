@@ -1,4 +1,7 @@
 #!/usr/bin/python
+#  python -V
+#	Python 2.7.5
+
 
 def valid_input(i):
 	try:
@@ -14,21 +17,21 @@ def valid_input(i):
 
 
 def iterator():
-	a, b = 0, 1
+	x, y = 0, 1
 	while 1:
-		yield a
-		a, b = b, a + b
+		yield x
+		x, y = y, x + y
 
 
 def fibonacci(fib_length):
 	if not valid_input(fib_length):
-		raise ValueError("INVALID Entry:  NOT AN INTEGER")
+		raise ValueError("INVALID Entry:  not an integer")
 
 	if fib_length < 1:
-		raise ValueError("INVALID Entry: ENTER A VALUE > 0 ") 	
+		raise ValueError("INVALID Input - Enter a value > 0 ") 	
 
 	series = []
-	a = iterator()
+	x = iterator()
 	for i in range(fib_length):
-		series.append(a.next())
+		series.append(x.next())
 	return series
