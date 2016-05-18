@@ -30,4 +30,7 @@ Thoughts about production web service:
       * scale out number of web servers?
 4) High availability-
 5) Monitoring / Alerting in case web service is unavailable
+6) Dependencies
+      * Python- future upgrades
+      * Combined with other web services?
 ```
