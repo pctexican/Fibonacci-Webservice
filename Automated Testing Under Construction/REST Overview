@@ -1,0 +1,18 @@
+REST
+ 
+REST means REpresentational State Transfer; it is an architecture that generally runs over HTTP. 
+The REST style emphasizes the interactions between clients and services, which are enhanced by having a 
+limited number of operations. REST is an alternative to SOAP (Simple Object Access Protocol) and instead 
+of using XML for request REST uses simple URL in some cases. 
+
+Unlike SOAP, RESTFUL applications uses HTTP build in headers to carry meta-information.
+
+There are various code that REST use to determine whether user has access to API or not like
+code 200 or 201 indicates successful interaction with response body while 400 indicates a 
+bad request or the request URI does not match the APIs in the system. 
+All API request parameters and method parameters can be sent via either POST or GET variables.
+
+ 
+Rest API supports both XML and JSON format. 
+It is usually preferred for mobile and web apps as it makes app work faster and smoother
+
