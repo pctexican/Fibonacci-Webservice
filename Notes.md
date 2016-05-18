@@ -18,6 +18,11 @@ Start service
 Use the following command to start service on default port 8080: 
 `python main.py`
 
+Issued from the location where you downloaded the project. The service will be
+available on port ``8080`` of your host operating system, eg::
+
+  ``http://localhost:8080/fibonacci/<n>``
+  
 Usage
 ---
 
