@@ -10,16 +10,14 @@ Dependencies:
 * web.py module
   * `sudo pip install web.py`
 * Apache Tomcat
-  * `sudo apt-get install apache2`
 
 Start service
 ---
 
-Use the following command to start service on default port 8080: 
+Use the following command to start service on default port 8080 from the location where you downloaded the project: 
 `python main.py`
 
-Issued from the location where you downloaded the project. The service will be
-available on port ``8080`` of your host operating system, eg::
+The service by default will be available on port ``8080`` of your host operating system, for example:
 
   ``http://localhost:8080/fibonacci/<n>``
   
