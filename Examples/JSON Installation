@@ -1,11 +1,4 @@
-pclifton:TEXMEX pclifton$ sudo easy_install json
-Searching for json
-Reading http://pypi.python.org/simple/json/
-Couldn't find index page for 'json' (maybe misspelled?)
-Scanning index of all packages (this may take a while)
-Reading http://pypi.python.org/simple/
-No local packages or download links found for json
-error: Could not find suitable distribution for Requirement.parse('json')
+
 pclifton:TEXMEX pclifton$ cpan install JSON
 
 CPAN.pm requires configuration, but most of it can be done automatically.
