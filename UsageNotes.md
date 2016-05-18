@@ -13,6 +13,9 @@ Dependencies:
 
 Start service
 ---
+Download the project:
+  ``` fibonacci_service.py
+      main.py ```
 
 Use the following command to start service on default port 8080 from the location where you downloaded the project: 
 `python main.py`
