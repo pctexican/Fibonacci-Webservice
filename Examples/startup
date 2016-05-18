@@ -1,12 +1,10 @@
 pclifton:~ pclifton$ python main.py
 http://0.0.0.0:8080/
 127.0.0.1:65316 - - [17/May/2016 23:49:50] "HTTP/1.1 GET /fibonacci/20" - 200 OK
-127.0.0.1:65316 - - [17/May/2016 23:49:53] "HTTP/1.1 GET /fibonacci/1000" - 200 OK
 127.0.0.1:65316 - - [17/May/2016 23:49:57] "HTTP/1.1 GET /fibonacci/10" - 200 OK
 127.0.0.1:65316 - - [17/May/2016 23:49:59] "HTTP/1.1 GET /fibonacci/0" - 200 OK
 127.0.0.1:65365 - - [17/May/2016 23:50:14] "HTTP/1.1 GET /fibonacci/1.9" - 200 OK
 127.0.0.1:65402 - - [17/May/2016 23:50:36] "HTTP/1.1 GET /fibonacci/-9" - 200 OK
 127.0.0.1:65402 - - [17/May/2016 23:50:45] "HTTP/1.1 GET /fibonacci/1000" - 200 OK
-127.0.0.1:65402 - - [17/May/2016 23:50:49] "HTTP/1.1 GET /fibonacci/1000" - 200 OK
 127.0.0.1:65402 - - [17/May/2016 23:50:52] "HTTP/1.1 GET /fibonacci/100" - 200 OK
 127.0.0.1:49221 - - [17/May/2016 23:52:28] "HTTP/1.1 GET /fibonacci/5" - 200 OK
