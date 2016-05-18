@@ -16,7 +16,7 @@ def valid_input(i):
 	return False
 
 
-def iterator():
+def fib():
 	x, y = 0, 1
 	while 1:
 		yield x
@@ -31,7 +31,7 @@ def fibonacci(fib_length):
 		raise ValueError("INVALID Input - Enter a value > 0 ") 	
 
 	series = []
-	x = iterator()
+	x = fib()
 	for i in range(fib_length):
 		series.append(x.next())
 	return series
