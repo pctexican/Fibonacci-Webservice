@@ -14,7 +14,7 @@ class index:
 		return 'Fibonacci web service. Append the url with /fibonacci/<number> to generate the series.'
 
 # Input a number (num)
-# Verify it is an integer greater than 0 
+# Verify (num) is an integer greater than 0 
 # 	If error, return exception message
 # 	If valid entry, call fibonacci(num)
 #	NOTE: there is no upper limit on (num)- could cause memory issues if too large
