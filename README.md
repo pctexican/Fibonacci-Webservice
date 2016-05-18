@@ -22,6 +22,7 @@ NOTE:
     **Approach this as representing a more complex problem that you'll have to put into production and maintain for 5 years.**
 
 Thoughts about production web service:
+```
 1) Security- encrypt?
 2) Performance- calculate the full sequence every time, or store sequences that are already called?
 3) Scalability-
@@ -29,3 +30,4 @@ Thoughts about production web service:
       * scale out number of web servers?
 4) High availability-
 5) Monitoring / Alerting in case web service is unavailable
+```
