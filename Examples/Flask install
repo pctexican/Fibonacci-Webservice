@@ -1,0 +1,73 @@
+pclifton:TEXMEX pclifton$ sudo easy_install flask
+
+Searching for flask
+Reading http://pypi.python.org/simple/flask/
+Best match: Flask 0.10.1
+Downloading https://pypi.python.org/packages/db/9c/149ba60c47d107f85fe52564133348458f093dd5e6b57a5b60ab9ac517bb/Flask-0.10.1.tar.gz#md5=378670fe456957eb3c27ddaef60b2b24
+Processing Flask-0.10.1.tar.gz
+Running Flask-0.10.1/setup.py -q bdist_egg --dist-dir /tmp/easy_install-FmmHN4/Flask-0.10.1/egg-dist-tmp-TKufp2
+warning: no files found matching '*' under directory 'tests'
+warning: no previously-included files matching '*.pyc' found under directory 'docs'
+warning: no previously-included files matching '*.pyo' found under directory 'docs'
+warning: no previously-included files matching '*.pyc' found under directory 'tests'
+warning: no previously-included files matching '*.pyo' found under directory 'tests'
+warning: no previously-included files matching '*.pyc' found under directory 'examples'
+warning: no previously-included files matching '*.pyo' found under directory 'examples'
+no previously-included directories found matching 'docs/_build'
+no previously-included directories found matching 'docs/_themes/.git'
+Adding Flask 0.10.1 to easy-install.pth file
+
+Installed /Library/Python/2.7/site-packages/Flask-0.10.1-py2.7.egg
+Processing dependencies for flask
+Searching for itsdangerous>=0.21
+Reading http://pypi.python.org/simple/itsdangerous/
+Best match: itsdangerous 0.24
+Downloading https://pypi.python.org/packages/dc/b4/a60bcdba945c00f6d608d8975131ab3f25b22f2bcfe1dab221165194b2d4/itsdangerous-0.24.tar.gz#md5=a3d55aa79369aef5345c036a8a26307f
+Processing itsdangerous-0.24.tar.gz
+Running itsdangerous-0.24/setup.py -q bdist_egg --dist-dir /tmp/easy_install-t1k2XL/itsdangerous-0.24/egg-dist-tmp-UxAIhq
+warning: no previously-included files matching '*' found under directory 'docs/_build'
+Adding itsdangerous 0.24 to easy-install.pth file
+
+Installed /Library/Python/2.7/site-packages/itsdangerous-0.24-py2.7.egg
+Searching for Jinja2>=2.4
+Reading http://pypi.python.org/simple/Jinja2/
+Best match: Jinja2 2.8
+Downloading https://pypi.python.org/packages/f2/2f/0b98b06a345a761bec91a079ccae392d282690c2d8272e708f4d10829e22/Jinja2-2.8.tar.gz#md5=edb51693fe22c53cee5403775c71a99e
+Processing Jinja2-2.8.tar.gz
+Running Jinja2-2.8/setup.py -q bdist_egg --dist-dir /tmp/easy_install-pKNlZH/Jinja2-2.8/egg-dist-tmp-eQ6PtK
+warning: no files found matching 'run-tests.py'
+warning: no files found matching '*' under directory 'custom_fixers'
+warning: no files found matching '*' under directory 'jinja2/testsuite/res'
+warning: no previously-included files matching '*' found under directory 'docs/_build'
+warning: no previously-included files matching '*.pyc' found under directory 'jinja2'
+warning: no previously-included files matching '*.pyc' found under directory 'docs'
+warning: no previously-included files matching '*.pyo' found under directory 'jinja2'
+warning: no previously-included files matching '*.pyo' found under directory 'docs'
+Adding Jinja2 2.8 to easy-install.pth file
+
+Installed /Library/Python/2.7/site-packages/Jinja2-2.8-py2.7.egg
+Searching for Werkzeug>=0.7
+Reading http://pypi.python.org/simple/Werkzeug/
+Best match: Werkzeug 0.11.9
+Downloading https://pypi.python.org/packages/0f/7c/b316cd9779817173e93f5cebc8fb387db33cc8dc526f3db5e61f2c008d5b/Werkzeug-0.11.9.tar.gz#md5=e4dbeb6302ce74babc0d7c21fc3d8291
+Processing Werkzeug-0.11.9.tar.gz
+Running Werkzeug-0.11.9/setup.py -q bdist_egg --dist-dir /tmp/easy_install-yDZrRm/Werkzeug-0.11.9/egg-dist-tmp-B4TiBA
+no previously-included directories found matching 'docs/_build'
+no previously-included directories found matching 'docs/_themes'
+warning: no previously-included files matching '*.py[cdo]' found anywhere in distribution
+warning: no previously-included files matching '__pycache__' found anywhere in distribution
+warning: no previously-included files matching '*.so' found anywhere in distribution
+warning: no previously-included files matching '*.pyd' found anywhere in distribution
+Adding Werkzeug 0.11.9 to easy-install.pth file
+
+Installed /Library/Python/2.7/site-packages/Werkzeug-0.11.9-py2.7.egg
+Searching for MarkupSafe
+Reading http://pypi.python.org/simple/MarkupSafe/
+Best match: MarkupSafe 0.23
+Downloading https://pypi.python.org/packages/c0/41/bae1254e0396c0cc8cf1751cb7d9afc90a602353695af5952530482c963f/MarkupSafe-0.23.tar.gz#md5=f5ab3deee4c37cd6a922fb81e730da6e
+Processing MarkupSafe-0.23.tar.gz
+Running MarkupSafe-0.23/setup.py -q bdist_egg --dist-dir /tmp/easy_install-2DdjoM/MarkupSafe-0.23/egg-dist-tmp-cSgovU
+Adding MarkupSafe 0.23 to easy-install.pth file
+
+Installed /Library/Python/2.7/site-packages/MarkupSafe-0.23-py2.7-macosx-10.9-intel.egg
+Finished processing dependencies for flask
