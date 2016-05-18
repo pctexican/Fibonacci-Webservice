@@ -1,4 +1,4 @@
-pclifton:TEXMEX pclifton$ python main.py
+pclifton:~ pclifton$ python main.py
 http://0.0.0.0:8080/
 127.0.0.1:65316 - - [17/May/2016 23:49:50] "HTTP/1.1 GET /fibonacci/20" - 200 OK
 127.0.0.1:65316 - - [17/May/2016 23:49:53] "HTTP/1.1 GET /fibonacci/1000" - 200 OK
